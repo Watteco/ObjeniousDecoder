@@ -760,8 +760,9 @@
   
   "format": [
     { "eval" :["zCODEC_VERSION", "'1.8'"] },
-    { "eval" :["zCODEC_VERSION_DATE", "'20220627'"] },
+    { "eval" :["zCODEC_VERSION_DATE", "'20220701'"] },
     { "eval" :["zCODEC_CHANGES","''"] },
+    { "eval" :["zCODEC_CHANGES","'20220701: [LDU] +Triphaso: Add 2 fields in Power Multi Metering clusters'"] },
     { "eval" :["zCODEC_CHANGES","'20220627: [LDU] +Triphaso: Energy + Power Multi Metering clusters'"] },
     { "eval" :["zCODEC_CHANGES","'20220623: [LDU] +Triphaso: Voltage Multi Metering clusters'"] },
     { "eval" :["zCODEC_CHANGES","'20220616: [PEG] + Enums Linky STD + Decodage TIC ADCO et ADSC : CC AA TT NNNNNN)'"] },
