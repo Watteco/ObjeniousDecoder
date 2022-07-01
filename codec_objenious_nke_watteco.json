@@ -132,6 +132,8 @@
     "EMM_ReactiveEnergyPhaseB": { "type": "int", "hidden": false, "length": 32},
     "EMM_ActiveEnergyPhaseC": { "type": "int", "hidden": false, "length": 32},
     "EMM_ReactiveEnergyPhaseC": { "type": "int", "hidden": false, "length": 32},
+    "EMM_ActiveEnergyPhaseABC": { "type": "int", "hidden": false, "length": 32},
+    "EMM_ReactiveEnergyPhaseABC": { "type": "int", "hidden": false, "length": 32},
     
     "EPM_ActivePowerPhaseA": { "type": "int", "hidden": false, "length": 32},
     "EPM_ReactivePowerPhaseA": { "type": "int", "hidden": false, "length": 32},
@@ -139,6 +141,8 @@
     "EPM_ReactivePowerPhaseB": { "type": "int", "hidden": false, "length": 32},
     "EPM_ActivePowerPhaseC": { "type": "int", "hidden": false, "length": 32},
     "EPM_ReactivePowerPhaseC": { "type": "int", "hidden": false, "length": 32},
+    "EPM_ActivePowerPhaseABC": { "type": "int", "hidden": false, "length": 32},
+    "EPM_ReactivePowerPhaseABC": { "type": "int", "hidden": false, "length": 32},
     
     "VCM_Vrms": { "type": "int", "hidden": false, "length": 16 },
     "VCM_Irms": { "type": "int", "hidden": false, "length": 16 },
@@ -2159,7 +2163,9 @@
                                 "EMM_ActiveEnergyPhaseB",
                                 "EMM_ReactiveEnergyPhaseB",
                                 "EMM_ActiveEnergyPhaseC",
-                                "EMM_ReactiveEnergyPhaseC"
+                                "EMM_ReactiveEnergyPhaseC",
+                                "EMM_ActiveEnergyPhaseABC",
+                                "EMM_ReactiveEnergyPhaseABC"
                               ]
                             }
                           ]
@@ -2180,7 +2186,9 @@
                                 "EPM_ActivePowerPhaseB",
                                 "EPM_ReactivePowerPhaseB",
                                 "EPM_ActivePowerPhaseC",
-                                "EPM_ReactivePowerPhaseC"
+                                "EPM_ReactivePowerPhaseC",
+                                "EPM_ActivePowerPhaseABC",
+                                "EPM_ReactivePowerPhaseABC"
                               ]
                             }
                           ]
